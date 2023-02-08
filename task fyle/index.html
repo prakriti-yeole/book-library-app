@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>book library app</title>
+</head>
+
+<body>
+    <div class="left-box">
+        <br>
+
+        <h4 style="text-align:center;margin-top:30px;">Trending subjects</h4>
+
+        <br>
+        <br>
+        <br>
+        <div id="subjects" style="height: 100px; text-align:center; padding-left: 2px;">
+            <a style="display: block; top: auto;
+            left: auto; padding:0px; margin:0px;  border: none; font-size:20px; color:black;  "
+                href="javascript:myfunction('Javascript')"> Javascript </a>
+
+            <br>
+            <a style="display: block; top: auto;
+            left: auto; padding:0px; margin:0px;  border: none; font-size:20px; color:black;  "
+                href="javascript:myfunction(' Harry Potter')"> Harry Potter </a>
+
+            <br>
+
+            <a style="display: block; top: auto;
+            left: auto; padding:0px; margin:0px;  border: none; font-size:20px; color:black;  "
+                href="javascript:myfunction('Indian history')"> Indian history </a>
+
+            <br>
+
+            <a style="display: block; top: auto;
+            left: auto; padding:0px; margin:0px;  border: none; font-size:20px; color:black;  "
+                href="javascript:myfunction('Crypto Currency')"> Crypto Currency </a>
+
+            <br>
+
+            <a style="display: block; top: auto;
+            left: auto; padding:0px; margin:0px;  border: none; font-size:20px; color:black;  "
+                href="javascript:myfunction('Criminal law')"> Criminal
+                law </a>
+
+
+        </div>
+        <!-- <button>Search</button> -->
+    </div>
+
+    <div class="top-box">
+        <input style="margin-top:-10px;" placeholder="search book by subjects" type="search" id="sub-search" name="q">
+
+        <button id="sub-btn">Search</button>
+
+
+    </div>
+
+    <div class="table">
+
+        <table id="tab">
+
+
+        </table>
+    </div>
+    <script src="logic.js"> </script>
+</body>
+
+</html>
